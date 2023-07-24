@@ -1,2 +1,1 @@
-Basic vue project
-Very simple reaction timer game
+Basic Vue project 
