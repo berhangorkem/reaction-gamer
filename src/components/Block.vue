@@ -18,6 +18,7 @@ export default {
         setTimeout(()=>{
             this.showBlock = true
             this.startTimer()
+            console.log(this.delay);
         },this.delay)
     },
     methods:{
@@ -30,7 +31,6 @@ export default {
             clearInterval(this.timer)
             this.$emit('end',this.reactionTime)
         }
-
     }
 }
 </script>
